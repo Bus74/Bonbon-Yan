@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'EmilysCandy-Regular';
+    src: url('../font/EmilysCandy-Regular.ttf');
+}
+body{
+	font-family: sans-serif;
+	background-color: #f7dcf6;
+	text-align: center;
+	color: #7c57be;
+
+}
+
+h1{
+	font-family: EmilysCandy-Regular;
+	color: #d85a6f;
+	margin-top: 150px;
+
+}
+
+h2{
+	font-family: EmilysCandy-Regular;
+}
+
+p{
+	font-size: 0.8em;
+}
+
+.backgroundpink{
+	background-image: url("../image/background_block.jpg");
+	width: 100px;
+	height: 100px;
+	border:2px solid white;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	margin: 1px;
+	display: inline-block;
+
+}
+.fond{
+	background-color: white;
+}
+.plus{
+	color: red;
+	font-size: 1.3em;
+
+}
+
+.bloc{
+	display: inline-block;
+ 	height: 200px;
+	width:33%;
+	
+}
+	
+.boite1{
+	position: absolute;
+	top: 160px;
+	left:300px;
+    width: 150px;
+    
+}
+
+.lien{
+	border:2px;
+	width: 100px;
+	height: 35px;
+	background-color: #d85a6f;
+	color: white;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+}
+
+
+
+.bonbons{
+	display: inline-block;
+	width: 650px;
+	height: 450px;
+	margin-left: 500px;
+	margin-top: 100px;
+}
